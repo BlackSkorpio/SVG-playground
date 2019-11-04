@@ -9,6 +9,7 @@
       g {
         fill: #28332c;
       }
+      img svg#wolf g,
       svg#wolf:hover g {
         fill: url(#my-warm-gradient) red; 
       }
