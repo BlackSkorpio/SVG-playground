@@ -1,9 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 360" height="250px" id="wolf">
   <defs>
     <linearGradient id="my-warm-gradient" x2="1" y2="1">
-      <stop offset="0%" stop-color="#CC7744"/>
-      <stop offset="50%" stop-color="#992244"/>
-      <stop offset="100%" stop-color="#661133"/>
+      <stop offset="0%" stop-color="#CC7744">
+        <animate dur="2" attributeName="offset" fill="freeze" from="0" to="50%"/>
+      </stop>
+      <stop offset="50%" stop-color="#992244">
+        <animate dur="2" attributeName="offset" fill="freeze" from="50%" to="99%"/>
+      </stop>
+      <stop offset="100%" stop-color="#661133">
+        <animate dur="2" attributeName="offset" fill="freeze" from="99%" to="100%"/>
+      </stop>
     </linearGradient>
     <style>
       g {
